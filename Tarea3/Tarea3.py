@@ -60,6 +60,7 @@ def calcular_promedio(*args):
         promedio=suma/len(args)
     
         print(f"El promedio de todos los numeros da: {promedio}")
+        print(f"La persona esta {"Aprobada" if promedio>=7 else "Desaprobada"}")
     except Exception as e:
         print(f"Error: {e}")
 
